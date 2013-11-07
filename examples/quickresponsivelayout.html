@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A Quick - In Browser Demo Layout</title>
+        <style>
+            *{ margin:0; padding:0 }
+			.clearfix:after{ content: "."; clear: both; display: block; height: 0; visibility: hidden }
+			.clearfix{ display: block }
+			
+			nav ul {
+				list-style: none;
+			}
+			nav li {
+				float: left;
+			}
+			nav li a {
+				padding: 5px 10px;
+				color: #f00;
+				text-decoration: none;
+				cursor: pointer;
+			}
+			header {
+				margin: 0 0 20px 0;
+				padding: 0 0 20px 0;
+				border-bottom: 1px dotted #fff;
+				background: rgba(255,255,255,0.5);
+			}
+			body {
+				font-family: Arial;
+			}
+			#wrap {
+				width: 900px;  background: #ccc;  margin: 0 auto;
+			}
+			footer p {
+				float: right;
+			}
+			footer nav {
+				float: left;
+			}
+			footer {
+				padding: 10px;  margin: 20px 0 0 0;  border-top: 1px dotted #fff;  background: rgba(255,255,255,0.4);
+			}
+			
+        </style>
+    </head>
+    
+    <body>
+    
+        <div id="wrap">
+    
+            <header class="clearfix">
+                <h1>Website title</h1>
+                <nav>
+                    <ul class="clearfix">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section class="clearfix">
+            
+                <article class="clearfix">
+                
+                    <h1>Article title</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eui smod nulla facilisis tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie cons equat, vel illum dolore eu feugiat nulla facilisis at ption congue nihil imperdie vero eros et accu msan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.</p>
+                
+                </article>
+            
+                <article class="clearfix">
+                
+                    <h1>Article title</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eui smod aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                    <p>Duis autem vel eum iriure dolor in, vel hendrerit in vulputate velit esse molestie cons equat illum dolore eu feugiat at ption congue nihil imperdie vero eros et accu msan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.</p>
+                
+                </article>
+            
+                <article class="clearfix">
+                
+                    <h1>Article title</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetuer in vulputate velit esse adipiscing elit, sed diam tincidunt ut laoreet dolore magna nonummy nibh eui smod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                    <p>Duis autem vel eum iriure dolor in hendrerit molestie cons equat, vel illum dolore eu feugiat nulla facilisis at ption congue nihil imperdie vero eros et accu msan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.</p>
+                
+                </article>
+            
+            </section>
+            
+            <footer class="clearfix">
+                <p>&copy; Copyright Gloo 2013. All rights reserved.</p>
+            
+                <nav>
+                    <ul class="clearfix">
+                        <li>Share this: </li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </nav>
+                
+            </footer>
+        
+        </div>
+    
+    </body>
+</html>
